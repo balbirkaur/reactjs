@@ -14,6 +14,11 @@ function Navbar() {
             Counter
           </Link>
         </li>
+        <li>
+          <Link to="/toggle-visibility" className="text-white hover:text-gray-300">
+            Toggle Visibility
+          </Link>
+        </li>
       </ul>
     </nav>
   )
